@@ -2,7 +2,7 @@
   "name": "react-pj-template",
   "version": "1.0.0",
   "scripts": {
-    "dev": "yarn run webpack:dev && yarn run webpack:dev-server"
+    "dev": "npx webpack-dev-server"
   },
   "main": "index.js",
   "license": "MIT",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
   }
 }
